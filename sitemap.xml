@@ -2,6 +2,13 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://gzholly.github.io/hexo/about/index.html</loc>
+    
+    <lastmod>2016-11-19T03:49:27.546Z</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>https://gzholly.github.io/hexo/hexo/2016/11/12/%E8%B7%AF%E7%94%B1%E5%99%A8%E4%B8%8A%E6%9C%80%E7%AE%80%E5%8D%95%E4%B8%89%E6%AD%A5%E2%80%9C%E7%BA%A2%E6%9D%8F%E5%87%BA%E5%A2%99%E2%80%9D/</loc>
     
     <lastmod>2016-11-19T03:22:30.697Z</lastmod>
@@ -33,13 +40,6 @@
     <loc>https://gzholly.github.io/hexo/categories/index.html</loc>
     
     <lastmod>2016-11-18T14:20:40.611Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://gzholly.github.io/hexo/about/index.html</loc>
-    
-    <lastmod>2016-11-18T14:20:21.514Z</lastmod>
     
   </url>
   
