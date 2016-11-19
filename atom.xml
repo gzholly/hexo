@@ -5,7 +5,7 @@
   <link href="/hexo/atom.xml" rel="self"/>
   
   <link href="https://gzholly.github.io/hexo/"/>
-  <updated>2016-11-17T11:55:44.363Z</updated>
+  <updated>2016-11-19T00:19:07.829Z</updated>
   <id>https://gzholly.github.io/hexo/</id>
   
   <author>
@@ -20,14 +20,15 @@
     <link href="https://gzholly.github.io/hexo/2016/11/17/%E7%BE%8E%E8%89%B2/"/>
     <id>https://gzholly.github.io/hexo/2016/11/17/美色/</id>
     <published>2016-11-17T11:51:29.000Z</published>
-    <updated>2016-11-17T11:55:44.363Z</updated>
+    <updated>2016-11-19T00:19:07.829Z</updated>
     
-    <content type="html"><![CDATA[<p><img src="http://upload-images.jianshu.io/upload_images/3644191-8011fd7e76ced93a.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240" alt="Paste_Image.png"></p>
+    <content type="html"><![CDATA[<h1 id="靓野！"><a href="#靓野！" class="headerlink" title="靓野！"></a>靓野！<span class="badge">23</span></h1><a id="more"></a>
+<p><img src="http://upload-images.jianshu.io/upload_images/3644191-8011fd7e76ced93a.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240" alt="Paste_Image.png"></p>
 ]]></content>
     
     <summary type="html">
     
-      &lt;p&gt;&lt;img src=&quot;http://upload-images.jianshu.io/upload_images/3644191-8011fd7e76ced93a.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240&quot; 
+      &lt;h1 id=&quot;靓野！&quot;&gt;&lt;a href=&quot;#靓野！&quot; class=&quot;headerlink&quot; title=&quot;靓野！&quot;&gt;&lt;/a&gt;靓野！&lt;span class=&quot;badge&quot;&gt;23&lt;/span&gt;&lt;/h1&gt;
     
     </summary>
     
@@ -43,7 +44,7 @@
     <link href="https://gzholly.github.io/hexo/2016/11/12/%E8%B7%AF%E7%94%B1%E5%99%A8%E4%B8%8A%E6%9C%80%E7%AE%80%E5%8D%95%E4%B8%89%E6%AD%A5%E2%80%9C%E7%BA%A2%E6%9D%8F%E5%87%BA%E5%A2%99%E2%80%9D/"/>
     <id>https://gzholly.github.io/hexo/2016/11/12/路由器上最简单三步“红杏出墙”/</id>
     <published>2016-11-12T12:55:26.000Z</published>
-    <updated>2016-11-17T11:48:55.242Z</updated>
+    <updated>2016-11-19T00:50:14.700Z</updated>
     
     <content type="html"><![CDATA[<h3 id="这篇文章说些什么？"><a href="#这篇文章说些什么？" class="headerlink" title="这篇文章说些什么？"></a>这篇文章说些什么？</h3><p>路由器上最简单三步“红杏出墙”，是需要一点点技术操作，真的只是一点点。</p>
 <h4 id="我们知道，我们所在的地方，需要科学上网。"><a href="#我们知道，我们所在的地方，需要科学上网。" class="headerlink" title="我们知道，我们所在的地方，需要科学上网。"></a>我们知道，我们所在的地方，需要科学上网。</h4><blockquote>
@@ -58,20 +59,18 @@
 </blockquote>
 <p><strong>以下举例是基于Openwrt（其它固件类似）</strong></p>
 <ul>
-<li><p>第一步：使用<strong>SSH</strong>连上你的路由器，然后执行一句代码。</p>
+<li>第一步：使用<strong>SSH</strong>连上你的路由器，然后执行一句代码。</li>
+</ul>
 <figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">wget -q https://raw.githubusercontent.com/racaljk/hosts/master/hosts -O /etc/googlehosts --no-check-certificate</div></pre></td></tr></table></figure>
-</li>
+<ul>
 <li><p>第二步：编辑<strong>/etc/dnsmasq.conf</strong><br>在最后添加一句</p>
-<blockquote>
-<p>addn-hosts=/etc/googlehosts</p>
-</blockquote>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">addn-hosts=/etc/googlehosts</div></pre></td></tr></table></figure>
 </li>
 <li><p>第三步：执行</p>
-<blockquote>
-<p>/etc/init.d/dnsmasq restart<br>或者 直接<strong>重启</strong></p>
-</blockquote>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">/etc/init.d/dnsmasq restart</div></pre></td></tr></table></figure>
 </li>
 </ul>
+<p>或者 直接<strong>重启</strong></p>
 <p>之后的事，<strong>你就懂了</strong>。<br>看到最后，是不是觉得好辛苦（我写得更辛苦^_^），但你辛苦是<strong>值得</strong>的。<br>试试<a href="https://zh.wikipedia.org/wiki/Wikipedia:%E9%A6%96%E9%A1%B5" target="_blank" rel="external">维基百科</a> <a href="https://zh.wikipedia.org/wiki/Wikipedia" target="_blank" rel="external">https://zh.wikipedia.org/wiki/Wikipedia</a> 是不是正常访问呢？(记得修改访问网址为https)<br><img src="http://upload-images.jianshu.io/upload_images/3644191-ff08ad44955b5508.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240" alt="Paste_Image.png"></p>
 <h2 id="结束，却仅是开始。"><a href="#结束，却仅是开始。" class="headerlink" title="结束，却仅是开始。"></a>结束，却仅是开始。</h2><p>自有了自定义Host，你可以访问<a href="https://www.google.com.hk" target="_blank" rel="external">google</a>了，但你可能发现<a href="https://www.youtube.com" target="_blank" rel="external">youtube</a>只有列表，打不开内里视频。你可能会越来越不满足，还要考虑能不能<strong>去掉讨厌的视频广告</strong>？能不能有个<strong>干净的DNS</strong>？能不能购买<strong>便宜的shadowsocks</strong>、能不能自建<strong>VPS</strong>（Virtual Private Server）等。不用着急，这些只是一个成长的过程，总有办法解决的。</p>
 <p><strong>最后声明</strong><br>本文提到的，仅代表本人的经验和观点。当然可以联系我作进一步交流，我可以协助您走出第一步。</p>
